@@ -1,0 +1,7 @@
+{
+  "name": "what-they-think-client",
+  "private": true,
+  "scripts": {
+    "build": "vite build"
+  }
+}
