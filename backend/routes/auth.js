@@ -5,6 +5,8 @@ const { JWT_SECRET, protect } = require('../middleware/auth');
 
 
 
+const router = express.Router();
+
 // Generate JWT
 const generateToken = (id) => {
     return jwt.sign({ id }, JWT_SECRET, { expiresIn: '30d' });
